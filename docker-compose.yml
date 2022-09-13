@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+
+    crypto:
+        build: "crypto"
+        ports:
+            - "8000:8000"
+        volumes:
+            - ./crypto/data:/crypto/data
