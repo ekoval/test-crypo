@@ -29,7 +29,7 @@ POST /portfolio/?jwt=<token> {"btc": 10, "eth": 20}
 GET /portfolio/?jwt=<token>
 ```
 
-#### Get your portfolio YTD statistics:
+#### Get your portfolio YTD statistics (just demo for now):
 ```
 GET /ytd-statistics/?jwt=<token>
 ```
